@@ -91,13 +91,15 @@
 }
 .insidebigcontainer1{
     font-size: 40px;
+    
     font-weight: bold;
     color:yellowgreen;
 }
 .insidebigcontainer2{
-    font-size: 100px;
+    font-size: 110px;
+    opacity:.4;
     color: lightcyan;
-    font-weight: 800;
+   
 }
 
 .container{
@@ -110,28 +112,36 @@
     border-radius: 0;
     width:500px; 
     padding: 20px;
+  
     background-size: cover;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 .h{
-    white-space: nowrap;
+    /* white-space: nowrap; */
     margin-top: 20%;
-    font-size: 65px;
+   
+
+    font-size: 70px;
     font-weight: bold;
     padding-right: 60px;
 }
 .h1{
+    word-spacing: 0.5em;
     margin-top:-50px;
     font-family: 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 .h2{
     font-size:25px ;
 }
+.h3{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
 
 .galary{
-   margin-top: 100px;
+   margin-top: 40px;
    position: relative;
    display: flex;
    align-items: center;
@@ -167,8 +177,11 @@
     z-index:1;
     
 }
+.bottomitem{
+    position:inline;
+}
 .or{
-    margin-top: 100px;
+    margin-top: 70px;
     height:150px;
     width: 150px;
     border-radius:10px;
@@ -177,7 +190,7 @@
     display: inline-block;
   padding: 20px 40px;
   font-size: 24px;
-  margin-top: -200px;
+  margin-top: -350px;
   margin-left: 250px;
   font-weight: bold;
   border-radius: 40px;
@@ -193,6 +206,7 @@
     min-height : 1030px;
     background-color:blueviolet;
     color:white;
+    overflow:hidden;
     display:flex;
     border-radius: 0;
     width: 50px; 
@@ -206,6 +220,7 @@
     align-items: right;
     white-space: nowrap;
     font-size: 25px;
+    word-spacing: 0.05em;
     font-weight: bold;
     transform: translateY(-50%); 
 }
@@ -334,11 +349,11 @@
   }
   .btn{
     position: relative;
-    padding-top: 130px;
+    padding-top: 0px;
   }
  
   .button-box {
-	width: 280px;
+	width: 300px;
     height: 60px;
     white-space: nowrap;
     display: flexbox;
@@ -376,4 +391,3 @@
     color:grey;
     font-size: 20px;
 }
-  
